@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML pig</title>
+    <style>
+        body{
+            padding-top: 100px;
+        }
+        #face {
+            margin-left: 40%;
+            background-color: lightpink;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            border-color: rgb(0, 0, 0);
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #eyebrow {
+            display: flex;
+
+            border-color: black;
+        }
+
+        #mouth {
+
+            position: absolute;
+            background-color: firebrick;
+            top: 180px;
+            width: 130px;
+            height: 60px;
+            margin-top: 20px;
+            border-bottom-left-radius: 90px;
+            border-bottom-right-radius: 90px;
+            overflow: hidden;
+        }
+
+        #toungue {
+
+            position: absolute;
+            background-color: red;
+
+            top: -1px;
+            margin-left: 28px;
+            width: 70px;
+            height: 30px;
+            margin-top: 37px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+
+
+
+        }
+
+        #eyes {
+
+            position: relative;
+            top: -40px;
+            display: flex;
+            padding-bottom: 35px;
+            margin-left: -10px;
+
+        }
+
+        #eye1 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            border-radius: 50%;
+            margin-left: 15px;
+
+        }
+
+
+
+        #eye2 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            border-radius: 100%;
+        }
+
+        #eyeball1 {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color: white;
+            margin: 0px 14px;
+            margin-top: 10px;
+
+            border-radius: 100%;
+        }
+
+        #eyes {
+
+            position: relative;
+            top: -40px;
+            display: flex;
+            padding-bottom: 35px;
+            margin-left: -10px;
+
+        }
+
+        #eye1 {
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: white;
+            margin-right:40px ;
+            border-radius: 50%;
+
+        }
+
+        #eye2 {
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: white;
+            
+            margin-right:0px ;
+            border-radius: 100%;
+        }
+
+        #eyeball1 {
+            position: relative;
+            width: 29px;
+            height: 29px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            margin-top: 13px;
+            border-radius: 100%;
+        }
+
+        #eyeball2 {
+            position: relative;
+            width: 29px;
+            height: 29px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            margin-top: 13px;
+
+            border-radius: 100%;
+        }
+
+        #nose {
+            background-color: rgb(248, 69, 69);
+            border: 1px solid;
+            position: absolute;
+            width: 120px;
+            height: 70px;
+            border-radius: 200px;
+            margin-left: 0px;
+            margin-top: 130px;
+            display: flex;
+        }
+        #nose1{
+            position: relative;
+            width: 29px;
+            height: 29px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            margin-top: 13px;
+
+            border-radius: 100%;
+        }
+        #nose2 {
+            position: relative;
+            width: 29px;
+            height: 29px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            margin-top: 13px;
+
+            border-radius: 100%;
+        }
+        #noseinside{
+            margin-top: 7px;
+            margin-left: auto;
+            display: flex;
+            
+        }
+        #ear1{
+            
+            position: absolute;
+            background-color:lightpink;
+            
+            top: -1px;
+            margin-left: -150px;
+            width: 100px;
+            height: 100px;
+            margin-top: 80px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+            overflow:hidden;
+
+        }
+        #ear2{
+            
+            position: absolute;
+            background-color:lightpink;
+            border: solid ba;
+            
+            top: -1px;
+            margin-left: 150px;
+            width: 100px;
+            height: 100px;
+            margin-top: 80px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        
+        <div id="face">
+            
+            <div id="ear1"></div>
+            <div id="ear2"></div>
+            <div id="eyes">
+                
+                <div id="eye1">
+                    <div id="eyeball1"></div>
+                </div>
+                <div id="eye2">
+                    <div id="eyeball2"> </div>
+                </div>
+            </div>
+
+
+            <div id="nose">
+                <div id = "noseinside">
+                    <div id="nose1"></div>
+                    <div id="nose2"></div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
